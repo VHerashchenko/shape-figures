@@ -7,6 +7,6 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return ", perimeter = " + perimeter() +", square = " +square();
+        return ", perimeter = " + perimeter() +", square = " + square();
     }
 }

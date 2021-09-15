@@ -5,12 +5,16 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor
 @Getter
 @Setter
 public class Circle extends Shape {
     private Point centerCircle;
     private double radius;
+
+    public Circle(Point centerCircle, double radius) {
+        checkRadius(radius);
+        this.centerCircle = centerCircle;
+    }
 
     public Circle(double x, double y, double radius) {
         checkRadius(radius);
