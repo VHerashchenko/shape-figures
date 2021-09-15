@@ -6,10 +6,6 @@ import com.vh.figures.Rectangle;
 import com.vh.figures.Triangle;
 import com.vh.shape.Shape;
 
-/**
- * Hello world!
- *
- */
 public class App {
 
     public static void main( String[] args ) {
